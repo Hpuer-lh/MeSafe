@@ -6,7 +6,7 @@
 #pragma comment(lib, "ws2_32.lib") // 链接到Winsock库
 
 #define PORT 10000
-#define IP "10.40.73.111"
+#define IP "your Server IP address"
 #define PC_number 20
 #define word_size 1024
 #define MAX_FILE_SIZE 10485760 //规定传输文件大小最大为10MB

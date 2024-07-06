@@ -11,13 +11,13 @@
 #pragma comment(lib, "ws2_32.lib") 
 
 #define PORT 10000
-#define IP "10.40.73.111"
+#define IP "your IP address"
 #define PC_number 20
 #define word_size 1024
-#define SQL_SERVER "HUAWEI\\SQLSEVER"
-#define SQL_DATABASE "MeSafe"
+#define SQL_SERVER "your SQL SERVE"
+#define SQL_DATABASE "your SQL DATABASE"
 #define MAX_FILE_SIZE 10485760 //规定传输文件大小最大为10MB
-#define FILE_PATH "D:\\code_project\\Cplusplus_project\\MeSafe\\x64\\Debug\\"//文件存储路径
+#define FILE_PATH "your File Path"//文件存储路径
 const char ENCRYPTION_KEY = 'X';// 定义密钥
 
 struct UserInfo
